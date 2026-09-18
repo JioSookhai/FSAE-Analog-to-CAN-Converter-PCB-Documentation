@@ -4360,7 +4360,7 @@
 		)
 	)
 	(rectangle
-		(start 15.24 13.97)
+		(start 15.24 12.7)
 		(end 284.48 80.01)
 		(stroke
 			(width 0)
@@ -4385,7 +4385,7 @@
 	)
 	(text "Power\n"
 		(exclude_from_sim no)
-		(at 19.304 16.002 0)
+		(at 18.796 14.986 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,7 +4395,7 @@
 	)
 	(text "Digital to CAN"
 		(exclude_from_sim no)
-		(at 31.496 83.058 0)
+		(at 22.606 83.058 0)
 		(effects
 			(font
 				(size 1.27 1.27)
