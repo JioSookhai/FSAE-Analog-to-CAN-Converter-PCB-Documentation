@@ -4423,7 +4423,7 @@
 		)
 		(uuid "d2856a80-4e9d-4403-a24b-3dc1da48a18e")
 	)
-	(text "Analog to Digital Converter\n"
+	(text "Analog to CAN Converter\n"
 		(exclude_from_sim no)
 		(at 153.416 85.852 0)
 		(effects
