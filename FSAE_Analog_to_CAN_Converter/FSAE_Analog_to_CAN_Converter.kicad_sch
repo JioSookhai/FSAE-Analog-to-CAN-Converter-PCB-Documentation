@@ -6483,7 +6483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00bd2566-26d3-405f-b7e7-f810f6c23553")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 132.08 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6547,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0132c845-aa1a-49b5-9237-4859b26f5401")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 135.89 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +6625,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a5bf16-5fa2-4f5c-a917-95f2c6629ecf")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 151.13 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6703,7 +6703,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05210f4a-b914-40fa-869f-b3f2a3897f9e")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 115.57 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +6784,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6802,7 +6802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05caac7e-5c69-45ce-ac8f-830af8664e79")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 105.41 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +6866,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12fb51bb-4e7a-4b41-83ce-73292f833e25")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 180.34 101.6001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7216,7 +7216,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1353d9b7-96f7-4177-aa97-30e3e04c7e81")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 40.64 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +7298,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7316,7 +7316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e55b2d-2a3d-4d5f-99cd-b5ec981e6135")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 133.35 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7376,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7394,7 +7394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2717cac5-34e8-40f7-862b-89dddccaf86b")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 279.4 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7458,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275b4175-c4db-489b-b371-6c0615f9e75b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR020"
 			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7536,7 +7536,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR010")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7554,7 +7554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab917f3-f3a1-496f-8394-5fc172e9f637")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 87.63 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7628,7 +7628,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7646,7 +7646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ac144a-8574-4431-9090-f58df31e1e1f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR022"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7706,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365b7141-bd0e-4aa9-9763-d3c752fc523c")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 46.99 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -7784,7 +7784,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7802,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba0b750-b334-48f1-a04c-c47ac6e2c253")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 107.95 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7862,7 +7862,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ecc9460-0ac1-4edb-b902-33a20721b5b3")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7940,7 +7940,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7958,7 +7958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5986266c-45a9-4b44-8501-a8eba2d64395")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 229.87 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8022,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6022e4b8-5467-4eec-8a8c-f261c5cbdc47")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 118.11 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8202,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1203b5-a305-4720-842a-9bbb4c2fda64")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8280,7 +8280,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec4a766-eb47-4c82-b0aa-e88c0633e5a2")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 39.37 18.415 0)
 			(hide yes)
 			(show_name no)
@@ -8358,7 +8358,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ee63a9e-8966-4c0a-b4cf-aafc4529b2cf")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 59.436 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +8463,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8481,7 +8481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710a0487-a688-448e-bf6e-095e7f63da11")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 87.63 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8541,7 +8541,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8559,7 +8559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f4b0ac-19fe-4f42-bbaa-2b7ae8cbe7a6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR021"
 			(at 219.71 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8619,7 +8619,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8637,7 +8637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "772874ee-f34c-414b-be44-8000f415a436")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR01"
 			(at 35.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8697,7 +8697,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR014")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8715,7 +8715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d4e8c15-7cee-4ba9-9a80-1cc70550db35")
-		(property "Reference" "C4"
+		(property "Reference" "C12"
 			(at 204.47 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8779,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C4")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8797,7 +8797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83ce075d-1b39-476f-a9ef-4cecefa4a7f5")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 191.77 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8861,7 +8861,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8878,7 +8878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b3789b7-c064-45b7-8bdd-16701e75d8fa")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 132.08 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8942,7 +8942,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8961,7 +8961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c73767d-c13c-438d-b927-1063ebe30622")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 87.63 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +9025,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9043,7 +9043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90b0b1d0-bcfd-4a66-ae2e-7b206f0cffff")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 147.32 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9103,7 +9103,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR06")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934bab71-3b8a-4a84-b3cd-55d67f843885")
-		(property "Reference" "C17"
+		(property "Reference" "C3"
 			(at 95.25 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9184,7 +9184,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9407fa90-ed48-4c4a-90de-5347c43ec935")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9262,7 +9262,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9280,7 +9280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98571140-3959-44fe-ba1f-0eea7ce5a554")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 113.03 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +9340,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9358,7 +9358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e48495c-36be-4605-8d01-5d7d8eb2265c")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 267.97 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9422,7 +9422,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9febe68e-f3b6-4fe0-8e60-c5a9785f8e68")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 135.89 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9500,7 +9500,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4affebe-8273-42b6-9ad3-29dd2d58938c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR09"
 			(at 74.93 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9578,7 +9578,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR024")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfc003a1-7829-43cb-9f27-92aae57a2a3a")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 168.91 100.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9742,7 +9742,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9760,7 +9760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd4e0eb-6cf7-444b-81d4-da14359677ea")
-		(property "Reference" "C5"
+		(property "Reference" "C13"
 			(at 217.17 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9824,7 +9824,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C5")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9842,7 +9842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2071103-5a5a-4dc7-af79-f2dca6dc0d19")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 146.05 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9906,7 +9906,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9924,7 +9924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5e9072-9d92-42aa-825d-830d16e2be54")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 22.225 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9944,7 +9944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical"
 			(at 21.59 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10010,7 +10010,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10028,7 +10028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf2f2d38-5ee7-4a7c-9b15-15275bb47c0f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 46.99 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +10088,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf9e0280-942f-46d0-91e2-b437d2faf94b")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 68.58 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,7 +10169,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10187,7 +10187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0195dc1-866a-40e5-b68b-03bf4bfa82fa")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 128.27 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10251,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10371,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 106.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10431,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd3dc2b0-2806-46f5-a2cf-ac73f0d91a6c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10491,7 +10491,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10509,7 +10509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0b4404e-7ae5-4d5f-bced-e47cc8fbf03d")
-		(property "Reference" "C18"
+		(property "Reference" "C1"
 			(at 62.23 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10573,7 +10573,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C18")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10592,7 +10592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e813e762-27cd-4a56-a44a-6ea8e1195cdc")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 87.63 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10656,7 +10656,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10674,7 +10674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef2f83f4-d505-45a0-a5cd-dbfe215a983a")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 128.27 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10738,7 +10738,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10756,7 +10756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2783b8c-edd4-4e5b-9d45-8fec8476588b")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 105.41 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +10820,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10839,7 +10839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f47d19f2-e158-4f28-a458-a878132de64d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 100.33 127 0)
 			(hide yes)
 			(show_name no)
@@ -10899,7 +10899,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64455bb-2d51-40df-8c0a-43dafcf1764c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR06"
 			(at 66.04 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10977,7 +10977,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR023")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10995,7 +10995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f920bcf5-d9e4-4ccd-9c8a-63a06360bafa")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 72.39 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11055,7 +11055,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11073,7 +11073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3237f7-aeef-433b-b160-85e1229ffc20")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 49.53 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +11138,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11156,7 +11156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdb56c47-a73d-4be9-9c24-9f0138beb27b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 140.97 28.575 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11216,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11234,7 +11234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd55c5c-9617-4cc4-ac95-49b5510f6e14")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 35.56 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11294,7 +11294,7 @@
 		(instances
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
