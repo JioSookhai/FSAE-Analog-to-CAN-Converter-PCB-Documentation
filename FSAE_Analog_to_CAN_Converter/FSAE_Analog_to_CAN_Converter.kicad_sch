@@ -1798,7 +1798,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:MCP2562-E-MF"
+		(symbol "Interface_CAN_LIN:MCP2562-E-SN"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1818,7 +1818,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP2562-E-MF"
+			(property "Value" "MCP2562-E-SN"
 				(at 2.54 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1829,7 +1829,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1852,7 +1852,7 @@
 					)
 				)
 			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8"
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1874,7 +1874,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1885,7 +1885,7 @@
 					)
 				)
 			)
-			(symbol "MCP2562-E-MF_0_1"
+			(symbol "MCP2562-E-SN_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -1898,7 +1898,7 @@
 					)
 				)
 			)
-			(symbol "MCP2562-E-MF_1_1"
+			(symbol "MCP2562-E-SN_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -2028,7 +2028,7 @@
 				(pin input line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "SHDN"
+					(name "STBY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2036,24 +2036,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4810,12 +4792,6 @@
 		(uuid "32797128-55c5-4ffc-b09d-587790b8d01d")
 	)
 	(junction
-		(at 243.84 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32f8089c-7ccc-407a-ac3e-60bf14281cc0")
-	)
-	(junction
 		(at 257.81 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4844,6 +4820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "443e2c00-16aa-41ee-826d-5c287efd7c33")
+	)
+	(junction
+		(at 243.84 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "447f2c78-3348-4aa7-bd35-ea5328be09bf")
 	)
 	(junction
 		(at 257.81 116.84)
@@ -4904,12 +4886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1f31ab6-9ff8-4b2a-91d8-f5d3f0c027d4")
-	)
-	(junction
-		(at 228.6 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3dc8fc0-e3c5-4443-bfa3-f492b43bbabc")
 	)
 	(junction
 		(at 153.67 33.02)
@@ -5499,16 +5475,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 132.08) (xy 241.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2631c9ab-33af-440b-8843-4b03e49c805d")
-	)
-	(wire
-		(pts
 			(xy 87.63 52.07) (xy 87.63 54.61)
 		)
 		(stroke
@@ -5516,26 +5482,6 @@
 			(type default)
 		)
 		(uuid "27300e3f-d5e2-4db1-bfff-89f2c66f760a")
-	)
-	(wire
-		(pts
-			(xy 228.6 135.89) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0e47ab-009d-42f1-93b2-5c7be36eb7ae")
-	)
-	(wire
-		(pts
-			(xy 228.6 124.46) (xy 231.14 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e46ff71-4ee1-4366-b5ea-91d478798e6c")
 	)
 	(wire
 		(pts
@@ -5849,16 +5795,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 132.08) (xy 241.3 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b87d96-7c41-44ea-8471-6f5dd9b22885")
-	)
-	(wire
-		(pts
 			(xy 186.69 76.2) (xy 186.69 78.74)
 		)
 		(stroke
@@ -5909,6 +5845,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 124.46) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a897a26-6d93-4604-82f8-37a180ba66b1")
+	)
+	(wire
+		(pts
 			(xy 189.23 76.2) (xy 189.23 78.74)
 		)
 		(stroke
@@ -5926,6 +5872,16 @@
 			(type default)
 		)
 		(uuid "5d220a81-af2d-493e-867b-1dd354c6d133")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3e5c37-63cc-4a50-ac3c-553845a4c001")
 	)
 	(wire
 		(pts
@@ -6869,7 +6825,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 228.6 121.92)
+			(xy 228.6 121.92) (xy 228.6 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7490,6 +7446,107 @@
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
+		(at 243.84 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052e00d8-35ec-4c37-82e0-2f79d2217480")
+		(property "Reference" "U5"
+			(at 245.9833 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP2562-E-SN"
+			(at 245.9833 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 243.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "c0e90054-6c35-4b97-8aa3-7998a24ebc6f")
+		)
+		(pin "6"
+			(uuid "4305800a-7888-4db5-9a01-fc0c2d1b604c")
+		)
+		(pin "2"
+			(uuid "f8a16342-5e3f-404f-a112-8927b4302a7a")
+		)
+		(pin "7"
+			(uuid "5609fdf5-d9e7-4039-87e2-18e803861fcc")
+		)
+		(pin "4"
+			(uuid "c64b5080-1e28-4b65-b284-9885fe0f691f")
+		)
+		(pin "3"
+			(uuid "2b1f2eb4-05fa-4b46-b518-1fb450bc11b8")
+		)
+		(pin "8"
+			(uuid "40e380c2-42bd-4301-a919-68346c3f6d08")
+		)
+		(pin "1"
+			(uuid "3a33e189-278d-49cd-83fc-b1d952ce0e7a")
+		)
+		(instances
+			(project "FSAE_Analog_to_CAN_Converter"
+				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 160.528 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -10905,110 +10962,6 @@
 			(project "FSAE_Analog_to_CAN_Converter"
 				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2562-E-MF")
-		(at 243.84 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c149d137-bf66-4d81-878a-6dc38586a3e0")
-		(property "Reference" "U4"
-			(at 245.9833 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP2562-E-MF"
-			(at 245.9833 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
-			(at 243.84 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, DFN-8"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "e26e7286-0ba1-493d-bede-5ca330889644")
-		)
-		(pin "3"
-			(uuid "e2d01380-1ce8-47b0-8743-8042231b50fd")
-		)
-		(pin "4"
-			(uuid "691e28bb-429b-4e2a-8a06-79203e051254")
-		)
-		(pin "6"
-			(uuid "1166c4e9-0e3d-4b06-a51c-6cb4c17ddb04")
-		)
-		(pin "1"
-			(uuid "589ef6e9-32b6-48d8-86df-a882a6fd3304")
-		)
-		(pin "2"
-			(uuid "baaee570-de30-4807-9f6c-36a58add5ab7")
-		)
-		(pin "5"
-			(uuid "f3a168f5-6a06-4b9f-8d78-8c163a306d2c")
-		)
-		(pin "9"
-			(uuid "8aa11f42-c93c-4ef0-a9e7-9eef253c2281")
-		)
-		(pin "8"
-			(uuid "271ac54f-a1a2-40a8-93fa-0c155865d31a")
-		)
-		(instances
-			(project "FSAE_Analog_to_CAN_Converter"
-				(path "/99368ba7-2b2d-46bc-b71f-42c7765e3ed8"
-					(reference "U4")
 					(unit 1)
 				)
 			)
