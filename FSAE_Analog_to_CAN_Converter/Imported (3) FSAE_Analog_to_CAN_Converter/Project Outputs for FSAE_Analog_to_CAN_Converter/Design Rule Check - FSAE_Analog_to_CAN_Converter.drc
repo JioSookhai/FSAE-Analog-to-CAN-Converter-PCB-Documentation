@@ -1,0 +1,556 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\jiova\FSAE-Analog-to-CAN-Converter-PCB-Documentation\FSAE_Analog_to_CAN_Converter\Imported (3) FSAE_Analog_to_CAN_Converter\FSAE_Analog_to_CAN_Converter.PcbDoc
+Date     : 10/20/2026
+Time     : 6:46:25 PM
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('Default')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('In1.Cu-') OR InNamedPolygon('In2.Cu-') OR InNamedPolygon('In2.Cu--1')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad C12-1(73.4mm,36.637mm) on F.Cu And Track (73.4mm,36.275mm)(73.4mm,36.637mm) on F.Cu Location : [X = 73.4mm][Y = 36.456mm]
+   Violation between Short-Circuit Constraint: Between Pad C13-1(88.8mm,27.137mm) on F.Cu And Track (88.8mm,25.8mm)(88.8mm,27.137mm) on F.Cu Location : [X = 88.8mm][Y = 26.919mm]
+   Violation between Short-Circuit Constraint: Between Pad C13-2(88.8mm,28.863mm) on F.Cu And Track (88.8mm,28.862mm)(90.1mm,28.862mm) on F.Cu Location : [X = 88.988mm][Y = 28.862mm]
+   Violation between Short-Circuit Constraint: Between Pad C16-1(75.1mm,23.498mm) on F.Cu And Track (74.014mm,23.498mm)(75.1mm,23.498mm) on F.Cu Location : [X = 74.912mm][Y = 23.498mm]
+   Violation between Short-Circuit Constraint: Between Pad C16-1(75.1mm,23.498mm) on F.Cu And Track (75.1mm,23.498mm)(75.102mm,23.5mm) on F.Cu Location : [X = 75.101mm][Y = 23.499mm]
+   Violation between Short-Circuit Constraint: Between Pad C18-1(72.8mm,27.1mm) on F.Cu And Track (72.8mm,27.1mm)(72.8mm,27.832mm) on F.Cu Location : [X = 72.8mm][Y = 27.319mm]
+   Violation between Short-Circuit Constraint: Between Pad C20-1(68.075mm,31.7mm) on F.Cu And Track (68.075mm,30.875mm)(68.075mm,31.7mm) on F.Cu Location : [X = 68.075mm][Y = 31.512mm]
+   Violation between Short-Circuit Constraint: Between Pad C2-1(79.087mm,51.602mm) on F.Cu And Track (79.087mm,49.115mm)(79.087mm,51.602mm) on F.Cu Location : [X = 79.087mm][Y = 51.528mm]
+   Violation between Short-Circuit Constraint: Between Pad C5-1(85.065mm,48.792mm) on F.Cu And Track (85.065mm,48.792mm)(85.065mm,49.734mm) on F.Cu Location : [X = 85.065mm][Y = 48.898mm]
+   Violation between Short-Circuit Constraint: Between Pad C7-1(93.512mm,48.582mm) on F.Cu And Track (91.45mm,48.502mm)(93.432mm,48.502mm) on F.Cu Location : [X = 93.328mm][Y = 48.502mm]
+   Violation between Short-Circuit Constraint: Between Pad C7-2(95.237mm,48.582mm) on F.Cu And Track (95.237mm,47.181mm)(95.237mm,48.582mm) on F.Cu Location : [X = 95.237mm][Y = 48.507mm]
+   Violation between Short-Circuit Constraint: Between Pad D1-1(71.28mm,51.79mm) on F.Cu And Track (71.28mm,48.825mm)(71.28mm,51.79mm) on F.Cu Location : [X = 71.28mm][Y = 51.328mm]
+   Violation between Short-Circuit Constraint: Between Pad F1-1(72.015mm,48.09mm) on F.Cu And Track (71.28mm,48.825mm)(71.28mm,51.79mm) on F.Cu Location : [X = 71.485mm][Y = 49.15mm]
+   Violation between Short-Circuit Constraint: Between Pad F1-1(72.015mm,48.09mm) on F.Cu And Track (71.28mm,48.825mm)(72.015mm,48.09mm) on F.Cu Location : [X = 71.853mm][Y = 48.452mm]
+   Violation between Short-Circuit Constraint: Between Pad F1-2(67.565mm,48.09mm) on F.Cu And Track (56.236mm,47.462mm)(66.937mm,47.462mm) on F.Cu Location : [X = 67.088mm][Y = 47.462mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-1(56.236mm,47.462mm) on Multi-Layer And Track (56.236mm,47.462mm)(66.937mm,47.462mm) on F.Cu Location : [X = 56.578mm][Y = 47.462mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-3(56.236mm,41.462mm) on Multi-Layer And Track (56.236mm,40.864mm)(56.236mm,41.462mm) on F.Cu Location : [X = 56.236mm][Y = 41.163mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-3(56.236mm,41.462mm) on Multi-Layer And Track (56.236mm,40.864mm)(63.9mm,33.2mm) on F.Cu Location : [X = 56.333mm][Y = 40.838mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-5(56.236mm,35.462mm) on Multi-Layer And Track (56.236mm,35.462mm)(57.9mm,33.797mm) on F.Cu Location : [X = 56.549mm][Y = 35.166mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-7(56.236mm,29.462mm) on Multi-Layer And Track (56.236mm,29.462mm)(67.797mm,17.9mm) on F.Cu Location : [X = 56.549mm][Y = 29.166mm]
+   Violation between Short-Circuit Constraint: Between Pad J3-4(91.92mm,22.3mm) on Multi-Layer And Track (89.72mm,24.5mm)(91.92mm,22.3mm) on F.Cu Location : [X = 91.636mm][Y = 22.584mm]
+   Violation between Short-Circuit Constraint: Between Pad L1-1(79.193mm,49.01mm) on F.Cu And Track (77.025mm,49.01mm)(79.193mm,49.01mm) on F.Cu Location : [X = 78.999mm][Y = 49.01mm]
+   Violation between Short-Circuit Constraint: Between Pad L1-1(79.193mm,49.01mm) on F.Cu And Track (79.087mm,49.115mm)(79.087mm,51.602mm) on F.Cu Location : [X = 79.087mm][Y = 49.562mm]
+   Violation between Short-Circuit Constraint: Between Pad U1-5(77.025mm,49.01mm) on F.Cu And Track (77.025mm,49.01mm)(79.193mm,49.01mm) on F.Cu Location : [X = 77.193mm][Y = 49.01mm]
+   Violation between Short-Circuit Constraint: Between Pad U2-3(91.45mm,48.502mm) on F.Cu And Track (91.45mm,48.502mm)(93.432mm,48.502mm) on F.Cu Location : [X = 91.73mm][Y = 48.502mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-24(80.15mm,25.525mm) on F.Cu And Track (80.15mm,22.25mm)(80.15mm,25.525mm) on F.Cu Location : [X = 80.15mm][Y = 25.187mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-27(81.65mm,25.525mm) on F.Cu And Track (81.65mm,21.15mm)(81.65mm,25.525mm) on F.Cu Location : [X = 81.65mm][Y = 25.187mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-48(86.075mm,34.95mm) on F.Cu And Track (86.075mm,34.95mm)(86.56mm,35.435mm) on F.Cu Location : [X = 86.173mm][Y = 34.976mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-5(74.725mm,32.95mm) on F.Cu And Track (74.675mm,32.9mm)(74.725mm,32.95mm) on F.Cu Location : [X = 74.7mm][Y = 32.925mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-7(74.725mm,31.95mm) on F.Cu And Track (73.3mm,31.332mm)(73.918mm,31.95mm) on F.Cu Location : [X = 73.983mm][Y = 31.941mm]
+   Violation between Short-Circuit Constraint: Between Pad U3-7(74.725mm,31.95mm) on F.Cu And Track (73.918mm,31.95mm)(74.725mm,31.95mm) on F.Cu Location : [X = 74.387mm][Y = 31.95mm]
+   Violation between Short-Circuit Constraint: Between Pad U5-1(90.025mm,35.105mm) on F.Cu And Track (88.537mm,35.105mm)(90.025mm,35.105mm) on F.Cu Location : [X = 89.588mm][Y = 35.105mm]
+   Violation between Short-Circuit Constraint: Between Track (66.66mm,46.14mm)(72.92mm,46.14mm) on F.CrtYd And Track (73.17mm,43.937mm)(73.17mm,47.237mm) on F.CrtYd Location : [X = 73.045mm][Y = 46.14mm]
+   Violation between Short-Circuit Constraint: Between Track (66.66mm,50.04mm)(72.92mm,50.04mm) on F.CrtYd And Track (69.53mm,50.29mm)(73.03mm,50.29mm) on F.CrtYd Location : [X = 71.225mm][Y = 50.165mm]
+   Violation between Short-Circuit Constraint: Between Track (69.53mm,50.29mm)(73.03mm,50.29mm) on F.CrtYd And Track (72.92mm,46.14mm)(72.92mm,50.04mm) on F.CrtYd Location : [X = 72.92mm][Y = 50.165mm]
+   Violation between Short-Circuit Constraint: Between Track (70.444mm,24.612mm)(71.904mm,24.612mm) on F.CrtYd And Track (72.07mm,24.587mm)(72.07mm,27.887mm) on F.CrtYd Location : [X = 71.987mm][Y = 24.62mm]
+   Violation between Short-Circuit Constraint: Between Track (70.444mm,24.612mm)(71.904mm,24.612mm) on F.CrtYd And Track (72.07mm,24.587mm)(73.53mm,24.587mm) on F.CrtYd Location : [X = 71.987mm][Y = 24.6mm]
+   Violation between Short-Circuit Constraint: Between Track (71.904mm,24.612mm)(71.904mm,27.912mm) on F.CrtYd And Track (72.07mm,24.587mm)(72.07mm,27.887mm) on F.CrtYd Location : [X = 71.987mm][Y = 26.25mm]
+   Violation between Short-Circuit Constraint: Between Track (71.904mm,24.612mm)(71.904mm,27.912mm) on F.CrtYd And Track (72.07mm,24.587mm)(73.53mm,24.587mm) on F.CrtYd Location : [X = 71.987mm][Y = 24.608mm]
+   Violation between Short-Circuit Constraint: Between Track (71.904mm,24.612mm)(71.904mm,27.912mm) on F.CrtYd And Track (72.07mm,27.887mm)(73.53mm,27.887mm) on F.CrtYd Location : [X = 71.987mm][Y = 27.88mm]
+   Violation between Short-Circuit Constraint: Between Track (72.92mm,46.14mm)(72.92mm,50.04mm) on F.CrtYd And Track (73.17mm,43.937mm)(73.17mm,47.237mm) on F.CrtYd Location : [X = 73.045mm][Y = 46.689mm]
+   Violation between Short-Circuit Constraint: Between Track (72.92mm,46.14mm)(72.92mm,50.04mm) on F.CrtYd And Track (73.17mm,47.237mm)(74.63mm,47.237mm) on F.CrtYd Location : [X = 73.045mm][Y = 47.237mm]
+   Violation between Short-Circuit Constraint: Between Track (73.17mm,47.237mm)(74.63mm,47.237mm) on F.CrtYd And Track (74.838mm,47.31mm)(74.838mm,47.51mm) on F.CrtYd Location : [X = 74.734mm][Y = 47.275mm]
+   Violation between Short-Circuit Constraint: Between Track (73.17mm,47.237mm)(74.63mm,47.237mm) on F.CrtYd And Track (74.838mm,47.31mm)(76.938mm,47.31mm) on F.CrtYd Location : [X = 74.734mm][Y = 47.274mm]
+   Violation between Short-Circuit Constraint: Between Track (76.021mm,24.287mm)(77.481mm,24.287mm) on F.CrtYd And Track (76.25mm,24.5mm)(84.55mm,24.5mm) on F.CrtYd Location : [X = 76.866mm][Y = 24.394mm]
+   Violation between Short-Circuit Constraint: Between Track (76.25mm,24.5mm)(84.55mm,24.5mm) on F.CrtYd And Track (77.481mm,20.987mm)(77.481mm,24.287mm) on F.CrtYd Location : [X = 77.481mm][Y = 24.394mm]
+   Violation between Short-Circuit Constraint: Between Track (76.25mm,37.9mm)(84.55mm,37.9mm) on F.CrtYd And Track (77.255mm,38.062mm)(77.255mm,41.362mm) on F.CrtYd Location : [X = 77.255mm][Y = 37.981mm]
+   Violation between Short-Circuit Constraint: Between Track (78.23mm,47.43mm)(83.13mm,47.43mm) on F.CrtYd And Track (79.17mm,43.913mm)(79.17mm,47.212mm) on F.CrtYd Location : [X = 79.17mm][Y = 47.321mm]
+   Violation between Short-Circuit Constraint: Between Track (78.23mm,47.43mm)(83.13mm,47.43mm) on F.CrtYd And Track (81.24mm,43.933mm)(81.24mm,47.232mm) on F.CrtYd Location : [X = 81.24mm][Y = 47.331mm]
+   Violation between Short-Circuit Constraint: Between Track (78.23mm,47.43mm)(83.13mm,47.43mm) on F.CrtYd And Track (81.24mm,47.232mm)(82.7mm,47.232mm) on F.CrtYd Location : [X = 81.97mm][Y = 47.331mm]
+   Violation between Short-Circuit Constraint: Between Track (78.23mm,47.43mm)(83.13mm,47.43mm) on F.CrtYd And Track (82.7mm,43.933mm)(82.7mm,47.232mm) on F.CrtYd Location : [X = 82.7mm][Y = 47.331mm]
+   Violation between Short-Circuit Constraint: Between Track (84.55mm,36.45mm)(85.65mm,36.45mm) on F.CrtYd And Track (85.83mm,35.458mm)(85.83mm,38.758mm) on F.CrtYd Location : [X = 85.74mm][Y = 36.45mm]
+   Violation between Short-Circuit Constraint: Between Track (85.65mm,35.35mm)(85.65mm,36.45mm) on F.CrtYd And Track (85.83mm,35.458mm)(85.83mm,38.758mm) on F.CrtYd Location : [X = 85.74mm][Y = 35.955mm]
+   Violation between Short-Circuit Constraint: Between Track (85.65mm,35.35mm)(87.1mm,35.35mm) on F.CrtYd And Track (85.83mm,35.458mm)(85.83mm,38.758mm) on F.CrtYd Location : [X = 85.83mm][Y = 35.404mm]
+   Violation between Short-Circuit Constraint: Between Track (92.517mm,46.747mm)(92.517mm,49.607mm) on F.CrtYd And Track (92.725mm,47.852mm)(92.725mm,49.312mm) on F.CrtYd Location : [X = 92.621mm][Y = 48.582mm]
+   Violation between Short-Circuit Constraint: Between Track (92.725mm,47.852mm)(96.025mm,47.852mm) on F.CrtYd And Track (94.085mm,44.362mm)(94.085mm,47.662mm) on F.CrtYd Location : [X = 94.085mm][Y = 47.757mm]
+Rule Violations :56
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Arc (102mm,45.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (104mm,37.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (58mm,24.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (58mm,48.95mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (94mm,54.95mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Arc (98mm,24.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon  (In1.Cu-) on In1.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon  (In2.Cu-) on In2.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Polygon  (In2.Cu--1) on In2.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (102mm,41.7mm)(104mm,41.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (108mm,24.7mm)(108mm,37.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (48mm,24.7mm)(48mm,48.95mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,29.462mm)(67.797mm,17.9mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,31.264mm)(56.236mm,32.462mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,31.264mm)(68.9mm,18.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,35.462mm)(57.9mm,33.797mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,38.462mm)(57.338mm,38.462mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,40.864mm)(56.236mm,41.462mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,40.864mm)(63.9mm,33.2mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (56.236mm,47.462mm)(66.937mm,47.462mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (57.338mm,38.462mm)(63.2mm,32.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (57.9mm,30.7mm)(57.9mm,33.797mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (57.9mm,30.7mm)(69.3mm,19.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (58mm,14.7mm)(98mm,14.7mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (58mm,58.95mm)(94mm,58.95mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (63.2mm,26.3mm)(63.2mm,32.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (63.2mm,26.3mm)(69.7mm,19.8mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (63.9mm,26.5mm)(63.9mm,33.2mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (63.9mm,26.5mm)(69.845mm,20.555mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (66.8mm,33.6mm)(68.075mm,33.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (66.937mm,47.462mm)(67.565mm,48.09mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (67.5mm,28.7mm)(68.5mm,29.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (67.5mm,30.3mm)(68.075mm,30.875mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (67.797mm,17.9mm)(78.4mm,17.9mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (68.075mm,30.875mm)(68.075mm,31.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (68.5mm,29.7mm)(70.775mm,29.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (68.9mm,18.6mm)(78.2mm,18.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.3mm,19.3mm)(78.1mm,19.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.7mm,19.8mm)(77.7mm,19.8mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.7mm,26.7mm)(70.125mm,27.125mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.845mm,20.555mm)(77.755mm,20.555mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.8mm,25.4mm)(71.174mm,25.4mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.8mm,31.7mm)(71.85mm,31.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (69.8mm,33.6mm)(71.9mm,33.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (70.125mm,27.125mm)(71.174mm,27.125mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.174mm,25.4mm)(71.199mm,25.375mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.174mm,27.125mm)(71.199mm,27.1mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.199mm,25.375mm)(72.8mm,25.375mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.199mm,27.1mm)(72.8mm,27.1mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.272mm,57.938mm)(71.28mm,57.93mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.28mm,48.825mm)(71.28mm,51.79mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.28mm,48.825mm)(72.015mm,48.09mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.28mm,55.79mm)(71.28mm,57.93mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.85mm,31.7mm)(71.9mm,31.75mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.925mm,38.362mm)(73.4mm,38.362mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.9mm,31.75mm)(72.6mm,32.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.9mm,33.6mm)(72.6mm,32.9mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (71.9mm,38.337mm)(71.925mm,38.362mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.015mm,48.09mm)(72.26mm,48.09mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.26mm,48.09mm)(73.9mm,46.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.3mm,29.9mm)(72.5mm,29.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.4mm,28.4mm)(72.4mm,29.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.4mm,28.4mm)(83.28mm,28.4mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.4mm,29.6mm)(72.5mm,29.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.5mm,29.7mm)(72.6mm,29.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.6mm,29.7mm)(73.3mm,30.4mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.6mm,32.45mm)(74.725mm,32.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.6mm,32.9mm)(74.675mm,32.9mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.8mm,27.1mm)(72.8mm,27.832mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72.8mm,27.832mm)(73.918mm,28.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (72mm,36.637mm)(73.4mm,36.637mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.3mm,30.4mm)(73.3mm,31.332mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.3mm,31.332mm)(73.918mm,31.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.4mm,36.275mm)(73.4mm,36.637mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.4mm,36.275mm)(74.725mm,34.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.657mm,23.855mm)(74.014mm,23.498mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.8mm,21.4mm)(74.173mm,21.773mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.918mm,28.95mm)(74.725mm,28.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.918mm,31.95mm)(74.725mm,31.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.9mm,44.725mm)(75.443mm,44.725mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (73.9mm,46.45mm)(74.75mm,47.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.014mm,23.498mm)(75.1mm,23.498mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.173mm,21.773mm)(75.1mm,21.773mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.675mm,32.9mm)(74.725mm,32.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.6mm,50.11mm)(74.6mm,51.8mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.6mm,50.11mm)(74.75mm,49.96mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.6mm,51.8mm)(74.7mm,51.9mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.725mm,29.45mm)(76.25mm,29.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.75mm,47.3mm)(74.75mm,48.06mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.75mm,48.06mm)(74.75mm,49.01mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74.7mm,51.9mm)(81.4mm,51.9mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.102mm,21.775mm)(76.751mm,21.775mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.102mm,23.5mm)(76.751mm,23.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.125mm,38.85mm)(76.525mm,38.85mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.1mm,21.773mm)(75.102mm,21.775mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.1mm,23.498mm)(75.102mm,23.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.225mm,40.55mm)(75.25mm,40.575mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.25mm,40.575mm)(76.525mm,40.575mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (75.443mm,44.725mm)(75.463mm,44.704mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (76.25mm,29.45mm)(76.3mm,29.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (76.525mm,38.85mm)(76.65mm,38.725mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (76.65mm,36.875mm)(76.65mm,38.725mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (76.751mm,23.5mm)(77.65mm,24.399mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.025mm,46.825mm)(77.025mm,48.06mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.025mm,49.01mm)(79.193mm,49.01mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.025mm,49.96mm)(77.025mm,51.265mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.025mm,51.265mm)(77.362mm,51.602mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.15mm,25.525mm)(77.15mm,27.15mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.15mm,35.25mm)(77.15mm,36.875mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.1mm,27.2mm)(77.15mm,27.15mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.1mm,35.2mm)(77.15mm,35.25mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.619mm,25.494mm)(77.65mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.65mm,24.399mm)(77.65mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.755mm,20.555mm)(79.65mm,22.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77.7mm,19.8mm)(80.15mm,22.25mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (77mm,46.8mm)(77.025mm,46.825mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.1mm,19.3mm)(80.65mm,21.85mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.2mm,18.6mm)(81.15mm,21.55mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.486mm,44.679mm)(78.507mm,44.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.4mm,17.9mm)(81.65mm,21.15mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.507mm,44.7mm)(79.9mm,44.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.65mm,36.875mm)(78.65mm,37.75mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (78.65mm,37.75mm)(79.2mm,38.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.087mm,49.115mm)(79.087mm,51.602mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.087mm,49.115mm)(79.193mm,49.01mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.2mm,38.3mm)(79.2mm,39mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.2mm,41mm)(80.6mm,41mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.65mm,22.45mm)(79.65mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.9mm,44.7mm)(81.95mm,44.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (79.9mm,46.425mm)(81.95mm,46.425mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (80.15mm,22.25mm)(80.15mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (80.65mm,21.85mm)(80.65mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (80.6mm,41mm)(81mm,41.4mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.15mm,21.55mm)(81.15mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.4mm,51.9mm)(82.1mm,51.2mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.65mm,21.15mm)(81.65mm,25.525mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.95mm,44.7mm)(81.97mm,44.72mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.95mm,46.425mm)(81.97mm,46.445mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (81.97mm,46.445mm)(82.167mm,46.642mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (82.167mm,46.642mm)(82.167mm,49.01mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (82.167mm,49.01mm)(82.167mm,51.132mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (82.167mm,49.01mm)(82.386mm,48.792mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (82.1mm,51.2mm)(82.167mm,51.132mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (82.386mm,48.792mm)(83.693mm,48.792mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.28mm,28.4mm)(89.38mm,22.3mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.65mm,25.525mm)(83.65mm,27.05mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.693mm,48.792mm)(83.693mm,49.759mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.693mm,48.792mm)(85.065mm,48.792mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.693mm,49.759mm)(84.099mm,50.165mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (83.6mm,27.1mm)(83.65mm,27.05mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.15mm,25.525mm)(84.173mm,25.502mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.15mm,36.875mm)(84.15mm,38.05mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.15mm,38.05mm)(84.8mm,38.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.173mm,21.867mm)(85.708mm,21.867mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.173mm,23.592mm)(84.173mm,25.502mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.173mm,23.592mm)(85.783mm,23.592mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.35mm,34.45mm)(86.075mm,34.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.3mm,34.4mm)(84.35mm,34.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.4mm,27.3mm)(84.4mm,33.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.4mm,27.3mm)(87.2mm,24.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.4mm,33.3mm)(85.05mm,33.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.8mm,38.551mm)(84.8mm,38.7mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (84.8mm,38.551mm)(93.31mm,30.041mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.05mm,33.95mm)(86.075mm,33.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.065mm,45.67mm)(85.065mm,47.067mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.065mm,45.67mm)(85.09mm,45.644mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.065mm,48.792mm)(85.065mm,49.734mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.065mm,49.734mm)(85.725mm,50.394mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.708mm,21.867mm)(85.725mm,21.85mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.725mm,50.394mm)(86.741mm,50.394mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (85.783mm,23.592mm)(85.825mm,23.55mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.075mm,32.95mm)(86.882mm,32.95mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.075mm,33.45mm)(86.882mm,33.45mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.075mm,34.95mm)(86.56mm,35.435mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.525mm,39.25mm)(86.56mm,39.215mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.56mm,35.435mm)(86.56mm,36.246mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.56mm,36.246mm)(87.954mm,36.246mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.56mm,37.971mm)(86.56mm,39.215mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.741mm,50.394mm)(87.224mm,49.911mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.741mm,50.394mm)(87.274mm,50.927mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.882mm,32.95mm)(88.537mm,31.295mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (86.882mm,33.45mm)(88.537mm,35.105mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.198mm,46.076mm)(87.198mm,46.965mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.198mm,46.076mm)(87.935mm,45.339mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.224mm,49.429mm)(87.224mm,49.911mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.274mm,50.927mm)(87.503mm,50.927mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.2mm,24.5mm)(89.72mm,24.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.503mm,50.927mm)(87.681mm,50.927mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.681mm,50.927mm)(88.138mm,50.47mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.935mm,45.339mm)(88.138mm,45.543mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (87.954mm,36.246mm)(88mm,36.2mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.138mm,45.543mm)(88.138mm,50.47mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.1mm,33.6mm)(88.335mm,33.835mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.2mm,31.3mm)(88.2mm,32.7mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.2mm,31.3mm)(90.6mm,28.9mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.2mm,32.7mm)(89.89mm,32.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.335mm,33.835mm)(90.025mm,33.835mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.537mm,31.295mm)(90.025mm,31.295mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.537mm,35.105mm)(90.025mm,35.105mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.5mm,25.5mm)(88.8mm,25.8mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.8mm,25.8mm)(88.8mm,27.137mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (88.8mm,28.862mm)(90.1mm,28.862mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (89.72mm,24.5mm)(91.92mm,22.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (89.89mm,32.7mm)(90.025mm,32.565mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (90.1mm,28.862mm)(90.563mm,28.862mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (90.563mm,28.862mm)(90.6mm,28.9mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,47.202mm)(91.45mm,47.533mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,47.202mm)(91.777mm,46.874mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,47.533mm)(91.465mm,47.549mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,48.502mm)(93.432mm,48.502mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,49.152mm)(91.45mm,50.15mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.45mm,50.15mm)(91.6mm,50.3mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (91.777mm,46.874mm)(93.355mm,46.874mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (93.31mm,25.99mm)(93.31mm,30.041mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (93.31mm,25.99mm)(97mm,22.3mm) on B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (93.355mm,45.149mm)(94.653mm,45.149mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (93.355mm,46.874mm)(94.931mm,46.874mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (93.432mm,48.502mm)(93.512mm,48.582mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.038mm,28.962mm)(95.4mm,28.962mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.162mm,27.237mm)(95.4mm,27.237mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.1mm,27.3mm)(94.162mm,27.237mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.653mm,45.149mm)(94.666mm,45.162mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.931mm,46.874mm)(95.237mm,47.181mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.975mm,31.295mm)(95.4mm,30.87mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.975mm,32.565mm)(96.438mm,32.565mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.975mm,33.835mm)(96.438mm,33.835mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.975mm,35.105mm)(94.975mm,35.975mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94.975mm,35.975mm)(95.6mm,36.6mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (94mm,29mm)(94.038mm,28.962mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (95.237mm,47.181mm)(95.237mm,48.582mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (95.237mm,47.181mm)(95.918mm,46.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (95.4mm,28.962mm)(95.4mm,30.87mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (95.918mm,46.5mm)(96.5mm,46.5mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (96.438mm,32.565mm)(96.847mm,32.975mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (96.438mm,33.835mm)(96.847mm,33.425mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (96.847mm,32.975mm)(98.7mm,32.975mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (96.847mm,33.425mm)(98.7mm,33.425mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (98.7mm,32.975mm)(99.975mm,31.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (98.7mm,33.425mm)(99.975mm,34.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (98mm,45.7mm)(98mm,54.95mm) on Edge.Cuts Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (99.975mm,31.7mm)(101.1mm,31.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (99.975mm,34.7mm)(101.1mm,34.7mm) on F.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (66.6mm,33.8mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (67.5mm,28.7mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (67.5mm,30.3mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (69.7mm,26.7mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (69.8mm,25.4mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (71.272mm,57.938mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (71.9mm,38.337mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (72.4mm,28.4mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (72mm,36.637mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (73.657mm,23.855mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (73.8mm,21.4mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (74.6mm,51.8mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (75.125mm,38.85mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (75.225mm,40.55mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (75.463mm,44.704mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (76.3mm,29.5mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (77.1mm,27.2mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (77.1mm,35.2mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (77mm,46.8mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (78.486mm,44.679mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (81mm,41.4mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (82.1mm,51.2mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (83.6mm,27.1mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (84.099mm,50.165mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (84.3mm,34.4mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (84.8mm,38.7mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (85.09mm,45.644mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (85.725mm,21.85mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (85.825mm,23.55mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (86.525mm,39.25mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (87.503mm,50.927mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (87.935mm,45.339mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (88.1mm,33.6mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (88.2mm,32.7mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (88.5mm,25.5mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (88mm,36.2mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (90.6mm,28.9mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (91.6mm,50.3mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (94.1mm,27.3mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (94.666mm,45.162mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (94mm,29mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (95.6mm,36.6mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (96.5mm,46.5mm) from F.Cu to B.Cu Dead Copper - Net Not Assigned.
+Rule Violations :285
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=10mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (56.236mm,29.462mm)(67.797mm,17.9mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,31.264mm)(56.236mm,32.462mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,31.264mm)(68.9mm,18.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,35.462mm)(57.9mm,33.797mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,38.462mm)(57.338mm,38.462mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,40.864mm)(56.236mm,41.462mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (56.236mm,40.864mm)(63.9mm,33.2mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (57.338mm,38.462mm)(63.2mm,32.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (57.9mm,30.7mm)(57.9mm,33.797mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (57.9mm,30.7mm)(69.3mm,19.3mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (63.2mm,26.3mm)(63.2mm,32.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (63.2mm,26.3mm)(69.7mm,19.8mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (63.9mm,26.5mm)(63.9mm,33.2mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (63.9mm,26.5mm)(69.845mm,20.555mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (66.8mm,33.6mm)(68.075mm,33.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (67.5mm,28.7mm)(68.5mm,29.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (67.5mm,30.3mm)(68.075mm,30.875mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (67.797mm,17.9mm)(78.4mm,17.9mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (68.075mm,30.875mm)(68.075mm,31.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (68.5mm,29.7mm)(70.775mm,29.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (68.9mm,18.6mm)(78.2mm,18.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.3mm,19.3mm)(78.1mm,19.3mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.7mm,19.8mm)(77.7mm,19.8mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.7mm,26.7mm)(70.125mm,27.125mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.845mm,20.555mm)(77.755mm,20.555mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.8mm,25.4mm)(71.174mm,25.4mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.8mm,31.7mm)(71.85mm,31.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (69.8mm,33.6mm)(71.9mm,33.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (70.125mm,27.125mm)(71.174mm,27.125mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.174mm,25.4mm)(71.199mm,25.375mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.174mm,27.125mm)(71.199mm,27.1mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.199mm,25.375mm)(72.8mm,25.375mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.199mm,27.1mm)(72.8mm,27.1mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.85mm,31.7mm)(71.9mm,31.75mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.925mm,38.362mm)(73.4mm,38.362mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.9mm,31.75mm)(72.6mm,32.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.9mm,33.6mm)(72.6mm,32.9mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (71.9mm,38.337mm)(71.925mm,38.362mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.3mm,29.9mm)(72.5mm,29.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.4mm,28.4mm)(72.4mm,29.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.4mm,28.4mm)(83.28mm,28.4mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.4mm,29.6mm)(72.5mm,29.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.5mm,29.7mm)(72.6mm,29.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.6mm,29.7mm)(73.3mm,30.4mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.6mm,32.45mm)(74.725mm,32.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.6mm,32.9mm)(74.675mm,32.9mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.8mm,27.1mm)(72.8mm,27.832mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72.8mm,27.832mm)(73.918mm,28.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (72mm,36.637mm)(73.4mm,36.637mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.3mm,30.4mm)(73.3mm,31.332mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.3mm,31.332mm)(73.918mm,31.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.4mm,36.275mm)(73.4mm,36.637mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.4mm,36.275mm)(74.725mm,34.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.657mm,23.855mm)(74.014mm,23.498mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.8mm,21.4mm)(74.173mm,21.773mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.918mm,28.95mm)(74.725mm,28.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (73.918mm,31.95mm)(74.725mm,31.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (74.014mm,23.498mm)(75.1mm,23.498mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (74.173mm,21.773mm)(75.1mm,21.773mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (74.675mm,32.9mm)(74.725mm,32.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (74.725mm,29.45mm)(76.25mm,29.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.102mm,21.775mm)(76.751mm,21.775mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.102mm,23.5mm)(76.751mm,23.5mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.125mm,38.85mm)(76.525mm,38.85mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.1mm,21.773mm)(75.102mm,21.775mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.1mm,23.498mm)(75.102mm,23.5mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.225mm,40.55mm)(75.25mm,40.575mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (75.25mm,40.575mm)(76.525mm,40.575mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (76.25mm,29.45mm)(76.3mm,29.5mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (76.525mm,38.85mm)(76.65mm,38.725mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (76.65mm,36.875mm)(76.65mm,38.725mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (76.751mm,23.5mm)(77.65mm,24.399mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.15mm,25.525mm)(77.15mm,27.15mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.15mm,35.25mm)(77.15mm,36.875mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.1mm,27.2mm)(77.15mm,27.15mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.1mm,35.2mm)(77.15mm,35.25mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.619mm,25.494mm)(77.65mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.65mm,24.399mm)(77.65mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.755mm,20.555mm)(79.65mm,22.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (77.7mm,19.8mm)(80.15mm,22.25mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (78.1mm,19.3mm)(80.65mm,21.85mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (78.2mm,18.6mm)(81.15mm,21.55mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (78.4mm,17.9mm)(81.65mm,21.15mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (78.65mm,36.875mm)(78.65mm,37.75mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (78.65mm,37.75mm)(79.2mm,38.3mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (79.2mm,38.3mm)(79.2mm,39mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (79.2mm,41mm)(80.6mm,41mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (79.65mm,22.45mm)(79.65mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (80.15mm,22.25mm)(80.15mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (80.65mm,21.85mm)(80.65mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (80.6mm,41mm)(81mm,41.4mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (81.15mm,21.55mm)(81.15mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (81.65mm,21.15mm)(81.65mm,25.525mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (83.28mm,28.4mm)(89.38mm,22.3mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (83.65mm,25.525mm)(83.65mm,27.05mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (83.6mm,27.1mm)(83.65mm,27.05mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.15mm,25.525mm)(84.173mm,25.502mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.15mm,36.875mm)(84.15mm,38.05mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.15mm,38.05mm)(84.8mm,38.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.173mm,21.867mm)(85.708mm,21.867mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.173mm,23.592mm)(84.173mm,25.502mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.173mm,23.592mm)(85.783mm,23.592mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.35mm,34.45mm)(86.075mm,34.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.3mm,34.4mm)(84.35mm,34.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.4mm,27.3mm)(84.4mm,33.3mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.4mm,27.3mm)(87.2mm,24.5mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.4mm,33.3mm)(85.05mm,33.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.8mm,38.551mm)(84.8mm,38.7mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (84.8mm,38.551mm)(93.31mm,30.041mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (85.05mm,33.95mm)(86.075mm,33.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (85.708mm,21.867mm)(85.725mm,21.85mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (85.783mm,23.592mm)(85.825mm,23.55mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.075mm,32.95mm)(86.882mm,32.95mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.075mm,33.45mm)(86.882mm,33.45mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.075mm,34.95mm)(86.56mm,35.435mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.525mm,39.25mm)(86.56mm,39.215mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.56mm,35.435mm)(86.56mm,36.246mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.56mm,36.246mm)(87.954mm,36.246mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.56mm,37.971mm)(86.56mm,39.215mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.882mm,32.95mm)(88.537mm,31.295mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (86.882mm,33.45mm)(88.537mm,35.105mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (87.2mm,24.5mm)(89.72mm,24.5mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (87.954mm,36.246mm)(88mm,36.2mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.1mm,33.6mm)(88.335mm,33.835mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.2mm,31.3mm)(88.2mm,32.7mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.2mm,31.3mm)(90.6mm,28.9mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.2mm,32.7mm)(89.89mm,32.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.335mm,33.835mm)(90.025mm,33.835mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.537mm,31.295mm)(90.025mm,31.295mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.537mm,35.105mm)(90.025mm,35.105mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.5mm,25.5mm)(88.8mm,25.8mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.8mm,25.8mm)(88.8mm,27.137mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (88.8mm,28.862mm)(90.1mm,28.862mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (89.72mm,24.5mm)(91.92mm,22.3mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (89.89mm,32.7mm)(90.025mm,32.565mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (90.1mm,28.862mm)(90.563mm,28.862mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (90.563mm,28.862mm)(90.6mm,28.9mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (93.31mm,25.99mm)(93.31mm,30.041mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (93.31mm,25.99mm)(97mm,22.3mm) on B.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.038mm,28.962mm)(95.4mm,28.962mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.162mm,27.237mm)(95.4mm,27.237mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.1mm,27.3mm)(94.162mm,27.237mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.975mm,31.295mm)(95.4mm,30.87mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.975mm,32.565mm)(96.438mm,32.565mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.975mm,33.835mm)(96.438mm,33.835mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.975mm,35.105mm)(94.975mm,35.975mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94.975mm,35.975mm)(95.6mm,36.6mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (94mm,29mm)(94.038mm,28.962mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (95.4mm,28.962mm)(95.4mm,30.87mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (96.438mm,32.565mm)(96.847mm,32.975mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (96.438mm,33.835mm)(96.847mm,33.425mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (96.847mm,32.975mm)(98.7mm,32.975mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (96.847mm,33.425mm)(98.7mm,33.425mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (98.7mm,32.975mm)(99.975mm,31.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (98.7mm,33.425mm)(99.975mm,34.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (99.975mm,31.7mm)(101.1mm,31.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (99.975mm,34.7mm)(101.1mm,34.7mm) on F.Cu Actual Width = 0.2mm, Target Width = 0.254mm
+Rule Violations :157
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad J1-Un1(60.556mm,45.312mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad J1-Un2(60.556mm,31.612mm) on Multi-Layer Actual Hole Size = 3mm
+Rule Violations :2
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:00
