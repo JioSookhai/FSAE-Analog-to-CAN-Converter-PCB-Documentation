@@ -7103,7 +7103,7 @@
 		)
 		(uuid "90da51a3-9ed6-4d3f-a8dc-11eb7e148166")
 	)
-	(label "CAN_TX"
+	(label "CAN_N"
 		(at 209.55 116.84 0)
 		(effects
 			(font
@@ -7113,7 +7113,7 @@
 		)
 		(uuid "9677d4fd-cbb1-4aaf-b147-a0a827cc0f99")
 	)
-	(label "CAN_RX"
+	(label "CAN_P"
 		(at 209.55 114.3 0)
 		(effects
 			(font
@@ -7153,7 +7153,7 @@
 		)
 		(uuid "cce6a357-1a4b-4075-9b8f-93e68cf9d360")
 	)
-	(label "CAN_RX"
+	(label "CAN_P"
 		(at 220.98 116.84 0)
 		(effects
 			(font
@@ -7193,7 +7193,7 @@
 		)
 		(uuid "f7b099e9-9dea-4e50-81db-379f6e4735eb")
 	)
-	(label "CAN_TX"
+	(label "CAN_N"
 		(at 220.98 114.3 0)
 		(effects
 			(font
